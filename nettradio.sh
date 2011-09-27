@@ -2,7 +2,7 @@
 
 . ./nettradio.strm
 
-DEBUG=1
+DEBUG=0
 
 PLAYER="mplayer"
 PLAYER_ARGS="-vo null"
@@ -10,7 +10,7 @@ PIDFILE="nettradio.pid"
 
 function play_radio {
 	stop_radio
-	if [ -z "$DEBUG" ] ; then
+	if [ $DEBUG -eq 1 ] ; then
 		$PLAYER $PLAYER_ARGS "$1" 
 	else
 		$PLAYER $PLAYER_ARGS "$1" < /dev/null > /dev/null 2>&1 &

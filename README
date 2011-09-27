@@ -1,0 +1,32 @@
+Provides script(s) for playing internet radio streams through mplayer or any
+other media player. By default, it uses mplayer, but this can be changed by
+editing the PLAYER and PLAYER_ARGS in the bash script.
+
+Feel free to add new streams and send me a pull-request so I can add them
+to the collection.
+
+
+USAGE (play):
+./nettradio.sh <channel>
+
+<channel> can be one of 
+
+  p4          - P4 Norge
+  rnorge      - Radio Norge
+  rn          - Radio Nova
+  mp3         - NRK mP3
+  p1          - NRK P1
+  p2          - NRK P2
+  p3          - NRK P3
+  urort       - NRK Urort
+  pyro        - NRK Pyro
+  voiceos     - The VOICE Oslo
+  voicetr     - The VOICE Trondheim
+  voicest     - The VOICE Stavanger
+  radio1os    - Radio1 Oslo
+  radio1bg    - Radio1 Bergen
+  tatw <num>  - Trance Around The World
+
+
+USAGE (stop):
+./nettradio.sh stop
