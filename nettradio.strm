@@ -1,0 +1,30 @@
+
+# P4 Norge
+P4="mmsh://mms-cluster2.nextra.no/P4_Norge?WMContentBitrate=100000&MSWMExt=.asf"
+
+# Radio Norge
+RADIO_NORGE="http://stream.sbsradio.no:8000/radionorge.mp3"
+
+# NRK Streams
+NRK_P1="http://lyd.nrk.no/nrk_radio_p1_ostlandssendingen_mp3_h"
+NRK_P2="http://lyd.nrk.no/nrk_radio_p2_mp3_h"
+NRK_P3="http://lyd.nrk.no/nrk_radio_p3_mp3_h"
+NRK_MP3="http://lyd.nrk.no/nrk_radio_mp3_mp3_h"
+NRK_URORT="http://lyd.nrk.no/nrk_radio_p3_urort_mp3_h"
+NRK_PYRO="http://lyd.nrk.no/nrk_radio_p3_pyro_mp3_h"
+
+# The VOICE
+VOICE_OSLO="http://stream.sbsradio.no:8000/thevoiceoslo.mp3"
+VOICE_TRONDHEIM="http://stream.sbsradio.no:8000/thevoicetrondheim.mp3"
+VOICE_STAVANGER="http://stream.sbsradio.no:8000/thevoicestavanger.mp3"
+
+# Radio1
+RADIO1_OSLO="http://stream.sbsradio.no:8000/radio1oslo.mp3"
+RADIO1_BERGEN="http://stream.sbsradio.no:8000/radio1bergen.mp3"
+
+# RadioNova
+RADIO_NOVA="http://stream.radionova.no/fm993.mp3" 
+
+
+# Trance Around The World
+TATW_BASE="http://tatw-archives.anjunabeats.com"
