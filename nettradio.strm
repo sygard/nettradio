@@ -1,6 +1,6 @@
 
 # P4 Norge
-P4="mmsh://mms-cluster2.nextra.no/P4_Norge?WMContentBitrate=100000&MSWMExt=.asf"
+P4="mms://mms-cluster2.nextra.no/P4_Norge?WMContentBitrate=52000"
 
 # Radio Norge
 RADIO_NORGE="http://stream.sbsradio.no:8000/radionorge.mp3"
