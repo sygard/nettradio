@@ -63,7 +63,6 @@ function print_help {
 	echo "  voicest     - The VOICE Stavanger"
 	echo "  radio1os    - Radio1 Oslo"
 	echo "  radio1bg    - Radio1 Bergen"
-	echo "  tatw <num>  - Trance Around The World"
 
 	exit 1
 }
@@ -123,9 +122,6 @@ case $1 in
 	;;
 	"rn")
 		play_radio $RADIO_NOVA
-	;;
-	"tatw")
-		play_radio ${TATW_BASE}/TATW${2}.mp3
 	;;
 	*)
 		echo "No channel selected"

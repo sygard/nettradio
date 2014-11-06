@@ -41,6 +41,3 @@ RADIO1_BERGEN="http://stream.sbsradio.no:8000/radio1bergen.mp3"
 # RadioNova
 RADIO_NOVA="http://stream.radionova.no/fm993.mp3" 
 
-
-# Trance Around The World
-TATW_BASE="http://tatw-archives.anjunabeats.com"
